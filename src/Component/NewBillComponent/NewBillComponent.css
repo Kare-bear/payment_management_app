@@ -3,13 +3,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 25px;
-    border: 2px solid black;
-    width: 60vw;
-    height: 20vh;
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px rgb(107, 107, 107);
+    width: 40vw;
+    height: 40vh;
 }
 
-h2{
-    margin: 5px;
+h2, h4, button, input{
+    margin: 10px;
+}
+input, button{
+    text-align: center;
+    box-shadow: 2px 2px rgb(173, 173, 173);
+    border-radius: 25px;
 }
 

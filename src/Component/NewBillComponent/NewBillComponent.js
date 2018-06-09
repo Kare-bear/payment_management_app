@@ -14,7 +14,7 @@ export default class NewBillComponent extends Component{
         return(
             <div className='new-bill-container'>
                 <div className='bill-name-item'>
-                    <input type="text" placeholder="New Bill Name"/>
+                    <input type="text" placeholder="New Bill Name" align='center'/>
                 </div>
                 <div className='due-date-item'>
                     <input type="text" placeholder="Due Date"/>
@@ -22,14 +22,15 @@ export default class NewBillComponent extends Component{
                 <div className='amount-due-item'>
                     <input type="text" placeholder="Amount Due"/>
                 </div>
-                <div className='edit-item'>
-                    <button>Edit</button>
+                <div>
+                    <h4>Link to payment site</h4>
+                    <input type='url' placeholder='www.example.com'/>
                 </div>
-                <div className='pay-item'>
-                    <button>Pay Bill</button>
+                <div className='add-item'>
+                    <button>Add</button>
                 </div>
                 <div className='delete-item'>
-                    <button>Delete</button>
+                    <button>Cancel</button>
                 </div>
             </div>
         )
