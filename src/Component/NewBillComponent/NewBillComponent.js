@@ -23,6 +23,18 @@ export default class NewBillComponent extends Component{
                     <input type="text" placeholder="Amount Due"/>
                 </div>
                 <div>
+                    <h4>How long until due next?</h4>
+                    <select>
+                        <option>Select recurring timeframe</option>
+                        <option>1 week</option>
+                        <option>2 weeks</option>
+                        <option>3 weeks</option>
+                        <option>1 month</option>
+                        <option>6 months</option>
+                        <option>Annual(1 payment a year)</option>
+                    </select>
+                </div>
+                <div>
                     <h4>Link to payment site</h4>
                     <input type='url' placeholder='www.example.com'/>
                 </div>
